@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <!-- VIEWS -->
+    <!--El TextView representa un label-->
+    <!-- wrap_content es que el contenedor del texto se adapta al texto-->
+    <!-- match_parent se adapta al ancho de la pantalla-->
+    <!-- gravity centra el texto en el CONTENEDOR-->
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONTADOR DE PULSOS"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="60sp"
+        android:textColor="@color/black"
+        />
+    <!-- Poner un componente abajo de otro, necesita el id del elemento que va arriba-->
+    <TextView
+        android:id="@+id/txtContador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitulo"
+        android:layout_marginTop="100sp"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="100sp"
+        android:textStyle="bold" />
+    <!-- en el layout_width también se puede colocar un número-->
+    <!-- layout_centerHorizontal centra el elemento horizontalmente-->
+    <!-- onclick es para darle una acción al elemento-->
+    <Button
+        android:id="@+id/btnMas"
+        android:layout_width="120sp"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/txtContador"
+        android:layout_marginTop="100sp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:onClick="onClick"
+        />
+    <Button
+        android:id="@+id/btnMenos"
+        android:layout_width="120sp"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/btnMas"
+        android:layout_marginTop="10sp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:onClick="onClick"
+        />
+    <Button
+        android:id="@+id/btnReiniciar"
+        android:layout_width="120sp"
+        android:layout_height="wrap_content"
+        android:text="REINICIAR"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:height="70sp"
+        android:layout_below="@+id/btnMenos"
+        android:layout_marginTop="10sp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:onClick="onClick"
+        />
+</RelativeLayout>

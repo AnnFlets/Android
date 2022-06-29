@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white"
+    >
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Operación SUMA"
+        android:gravity="center"
+        android:layout_marginTop="65sp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+         />
+    <EditText
+        android:id="@+id/edtNum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitulo"
+        android:layout_marginTop="40sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:textColor="@color/black"
+        android:hint="Ingrese el primer número a sumar"
+        android:textColorHint="@android:color/holo_blue_dark"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/edtNum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtNum1"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:textColor="@color/black"
+        android:hint="Ingrese el segundo número a sumar"
+        android:textColorHint="@android:color/holo_blue_dark"
+        android:inputType="number"
+        />
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_below="@+id/edtNum2"
+        android:layout_marginTop="40sp"
+        android:text="..."
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/btnSumar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtResultado"
+        android:layout_margin="35sp"
+        android:text="SUMAR"
+        android:textSize="25sp"
+        android:onClick="onClick"
+        />
+</RelativeLayout>

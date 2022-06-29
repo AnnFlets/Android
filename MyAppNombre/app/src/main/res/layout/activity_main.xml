@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BIENVENIDO"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="150sp"
+        android:textColor="@color/black"
+        />
+    <!-- El hint es como el placeholder-->
+    <!-- El inputType sirve para definir el tipo de dato a ingresar (teclado)-->
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitulo"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:hint="Ingrese su nombre"
+        android:textColorHint="@android:color/holo_blue_dark"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:id="@+id/edtEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtNombre"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:hint="Ingrese su edad"
+        android:textColorHint="@android:color/holo_blue_dark"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:layout_below="@+id/edtEdad"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginTop="80sp"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:id="@+id/btnMostrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtResultado"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:text="MOSTRAR"
+        android:onClick="onClick"
+        />
+
+</RelativeLayout>
