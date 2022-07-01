@@ -4,23 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity3">
 
     <ImageView
-        android:id="@+id/imgvRojo"
+        android:id="@+id/imgvVerde"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_rojo"
+        android:src="@drawable/ic_verde"
         android:layout_margin="25sp"
         />
     <Button
-        android:id="@+id/btnSiguienteR"
+        android:id="@+id/btnSiguienteV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/imgvRojo"
+        android:layout_below="@id/imgvVerde"
         android:layout_margin="15sp"
         android:backgroundTint="@color/black"
         android:textColor="@color/white"
         android:text="SIGUIENTE"
         />
+
 </RelativeLayout>

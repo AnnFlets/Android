@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgvUsuario"
+        android:layout_width="160sp"
+        android:layout_height="160sp"
+        android:src="@drawable/ic_usuario"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150sp"
+        />
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgvUsuario"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:hint="Ingrese su nombre"
+        android:textSize="17sp"
+        />
+    <EditText
+        android:id="@+id/edtEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtNombre"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:hint="Ingrese su edad"
+        android:textSize="17sp"
+        android:inputType="number"
+        />
+    <Button
+        android:id="@+id/btnComprobar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtEdad"
+        android:layout_marginTop="60sp"
+        android:layout_marginRight="70sp"
+        android:layout_marginLeft="70sp"
+        android:text="COMPROBAR"
+        android:backgroundTint="#7576B3"
+        />
+
+</RelativeLayout>
