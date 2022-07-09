@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyAppRepaso1</string>
+    <string name="textoSuma">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur, ligula in
+        tristique porta, lorem nibh iaculis elit, eu interdum magna lectus scelerisque nibh. Morbi
+        sed metus dictum, euismod elit sed, luctus enim. Duis eu mauris elit. Pellentesque quis egestas
+        orci, eget pulvinar nisi. Nulla sit amet nunc eu purus mattis sagittis id posuere ante. Quisque
+        egestas, nunc sed ullamcorper tempor, sem elit placerat enim, mollis placerat diam metus ac elit.
+        Vivamus ut velit purus. Curabitur ornare, elit a euismod auctor, magna nibh luctus urna, sed mollis
+        dolor turpis vel purus. Cras tempor sed purus id feugiat. Cras blandit nisi nisi, vel semper metus
+        scelerisque ac. Maecenas interdum in nulla nec facilisis. Suspendisse magna purus, lobortis et enim
+        ac, euismod iaculis justo. In fermentum sagittis aliquet. Vivamus sapien massa, ornare et dignissim
+        quis, pretium pellentesque sem. Curabitur consectetur nec neque sed viverra.
+    </string>
+</resources>
