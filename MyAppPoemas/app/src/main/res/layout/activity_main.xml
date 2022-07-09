@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/ic_fondo">
+
+    <ImageView
+        android:id="@+id/imgvBandera"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:src="@drawable/ic_bandera"
+        android:layout_margin="20sp"
+        />
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90sp"
+        android:layout_below="@+id/imgvBandera"
+        android:text="POEMAS GUATEMALTECOS"
+        android:background="#5C0EA6BA"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="50sp"
+        />
+    <Button
+        android:id="@+id/boton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitulo"
+        android:layout_marginLeft="60sp"
+        android:layout_marginRight="60sp"
+        android:layout_marginTop="100sp"
+        android:text="ANA MARÍA RODAS"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#ECEDED"
+        android:textStyle="bold"
+        android:backgroundTint="#8E622B"
+        android:onClick="onClick"
+        />
+    <Button
+        android:id="@+id/boton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/boton1"
+        android:layout_marginLeft="60sp"
+        android:layout_marginRight="60sp"
+        android:layout_marginTop="30sp"
+        android:text="CÉSAR BRAÑAS"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#ECEDED"
+        android:textStyle="bold"
+        android:backgroundTint="#700F6A"
+        android:onClick="onClick"
+        />
+    <Button
+        android:id="@+id/boton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/boton2"
+        android:layout_marginLeft="60sp"
+        android:layout_marginRight="60sp"
+        android:layout_marginTop="30sp"
+        android:text="MANUEL JOSÉ ARCE"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#ECEDED"
+        android:textStyle="bold"
+        android:backgroundTint="#370551"
+        android:onClick="onClick"
+        />
+
+</RelativeLayout>

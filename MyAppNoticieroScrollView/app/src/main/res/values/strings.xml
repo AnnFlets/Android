@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">MyAppNoticieroScrollView</string>
+    <string name="titulo">
+        NOTICIERO \"EL MOMENTO\"
+    </string>
+    <string name="noticia1">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at mauris hendrerit, lacinia dui
+        non, lacinia ligula. Sed id velit vitae ligula pretium blandit at sed augue. Cras nec justo
+        justo. In semper tempor nisi ac molestie. Nulla eu odio eu tortor viverra scelerisque
+        vehicula ut ante. Nunc sit amet nisi nulla. Suspendisse id scelerisque quam. Maecenas
+        consectetur magna at semper faucibus. Maecenas auctor odio sit amet volutpat tristique.
+        Proin et faucibus sapien. Phasellus tincidunt nisi dapibus, dignissim neque ut, suscipit
+        libero. Nam scelerisque lobortis tincidunt.
+    </string>
+    <string name="noticia2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat feugiat sapien,
+        non pretium enim vulputate tincidunt. In placerat sollicitudin orci, vel accumsan diam
+        tincidunt nec. Duis id fringilla velit. Integer non lacus odio. Sed et nisi in nunc sagittis
+        sollicitudin sed ut sem. Curabitur laoreet iaculis urna, sed dignissim turpis porttitor at.
+        Nullam tempor magna ac blandit elementum. Fusce varius pretium enim vitae fermentum. Ut et
+        sapien mollis, auctor elit ac, accumsan magna. Aliquam est leo, suscipit facilisis vehicula
+        eget, porttitor suscipit lectus. Cras vel maximus tortor. Quisque quis nunc accumsan purus
+        dapibus ultrices in ut elit. Aenean eget magna dignissim, elementum ex id, viverra mauris.
+        \n\n
+        Phasellus ultrices dignissim massa eu maximus. Aliquam ultricies erat urna, a tempus eros vulputate
+        ultricies. Maecenas sollicitudin lectus vitae ipsum tristique consectetur. In iaculis ante
+        ut pulvinar feugiat. In risus enim, tempor egestas augue et, feugiat dictum velit. Cras sed
+        elit eget libero vehicula lobortis. Sed aliquet tellus aliquet sagittis mattis. Nunc in orci
+        dapibus, egestas augue non, volutpat ipsum. Cras sollicitudin lacus magna, sit amet rhoncus
+        nunc tincidunt ut. Phasellus gravida diam vel accumsan volutpat.
+        \n\n
+        Cras aliquam faucibus elit, ac tempor nunc dictum non. Nulla facilisi. Duis purus leo, venenatis
+        vel eleifend vitae, sollicitudin quis erat. Etiam varius, leo vel viverra elementum, massa leo
+        rhoncus lacus, at ullamcorper lectus odio eu elit. Vivamus sed libero nec est euismod dignissim
+        sed nec erat. Nullam magna quam, eleifend vel leo in, rhoncus consequat ipsum. Suspendisse quis
+        magna volutpat, posuere purus congue, condimentum neque. Vestibulum ante ipsum primis in faucibus
+        orci luctus et ultrices posuere cubilia curae; Praesent vestibulum leo in leo venenatis, vitae commodo
+        nisi feugiat. Nam in mauris a nisi scelerisque consectetur. Sed condimentum augue quis convallis
+        tristique. Ut odio sem, egestas in porta non, vestibulum at lectus. Nunc sit amet ante vel eros
+        laoreet ultrices a non urna. Aenean tortor augue, dictum pellentesque lectus eget, ultrices feugiat
+        libero. Donec viverra elementum metus. Orci varius natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus.
+    </string>
+    <string name="noticia3">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque massa velit, pulvinar a mollis vel, convallis at lorem. Aliquam pretium fermentum ligula in egestas. Quisque a nunc dolor. Phasellus vel tristique lacus, vel molestie enim. Cras nibh orci, consectetur non turpis eget, porta tincidunt nisi. In convallis odio justo, et tempus tellus semper sit amet. Vivamus tincidunt purus at semper consequat.
+        \n\n
+        In eu euismod sapien. Etiam posuere dignissim leo, ac feugiat tellus suscipit quis. Praesent imperdiet ex at porttitor sodales. Nam eget sem tristique, commodo mi vitae, congue orci. Aenean eu mattis erat, sit amet volutpat ante. Sed venenatis gravida ligula vitae cursus. Phasellus eget euismod eros. Aliquam aliquet arcu et tincidunt eleifend. Duis non nibh diam. Donec in libero ante. Fusce varius risus neque, et suscipit enim feugiat at. In pretium orci in est tempus, vitae tempus neque aliquam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras egestas urna eu justo lobortis ultrices. Phasellus ac convallis velit. In hac habitasse platea dictumst.
+        \n\n
+        Nulla ac augue tempor, commodo metus at, tincidunt sem. Nam feugiat imperdiet est molestie porttitor. Nullam vulputate sem quis metus pellentesque condimentum. Phasellus diam diam, maximus nec dolor a, volutpat facilisis eros. Pellentesque mollis diam nec nisi malesuada laoreet. Curabitur eu lorem ac leo sagittis mollis. Sed sagittis, justo id accumsan sollicitudin, lorem lorem sagittis ex, fermentum sagittis ante turpis nec odio. Nullam neque magna, imperdiet vel suscipit sit amet, scelerisque eu magna. Aliquam finibus porttitor sapien vel euismod. Aliquam erat volutpat. Aenean sit amet finibus felis.
+        \n\n
+        Maecenas ac sem vel diam auctor aliquet ut ut elit. Vestibulum suscipit nibh sem, vel malesuada nunc sodales ut. Sed aliquam consectetur arcu non laoreet. Sed eu leo nec augue eleifend pretium. Nam eget lacus quis dolor sollicitudin tincidunt et sit amet elit. Sed porttitor purus vitae commodo tempus. Maecenas in mi maximus, interdum arcu quis, iaculis nunc. Maecenas vel fermentum massa.
+        \n\n
+        Vivamus risus est, condimentum vitae consequat et, lacinia vitae quam. Aliquam porta ex in justo congue iaculis. Suspendisse pretium, diam at dictum pharetra, mauris turpis viverra lectus, accumsan pellentesque ex erat id erat. Sed eu nunc nec massa consequat faucibus sed at arcu. Suspendisse molestie pretium sem nec cursus. Sed eu purus sed sem feugiat efficitur a id lectus. Integer vel vehicula est. Fusce dapibus vitae sapien ac ultricies. Sed sit amet turpis mauris. Suspendisse ultricies luctus leo at pellentesque. Praesent aliquet turpis mollis, malesuada erat ac, dictum metus.
+    </string>
+</resources>
