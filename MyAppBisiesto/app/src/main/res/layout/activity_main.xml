@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/ic_fondoi">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DETERMINAR AÑO BISIESTO"
+        android:gravity="center"
+        android:layout_marginTop="90sp"
+        android:textSize="35sp"
+        android:background="#72000000"
+        android:textStyle="bold"
+        android:textColor="#ECECEC"
+        android:fontFamily="sans-serif-light"
+        />
+
+    <ImageView
+        android:layout_width="250sp"
+        android:layout_height="250sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35sp"
+        android:layout_marginBottom="25sp"
+        android:src="@drawable/ic_calendario"
+        />
+
+    <EditText
+        android:id="@+id/edtAnio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:hint="Ingrese el año a verificar"
+        android:textColorHint="#5C5B5B"
+        android:textColor="#5C5B5B"
+        android:textSize="20sp"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/btnVerificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:text="VERIFICAR"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:backgroundTint="#6895F1"
+        />
+
+</LinearLayout>
