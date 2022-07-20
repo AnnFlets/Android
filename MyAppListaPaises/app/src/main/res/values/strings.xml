@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">MyAppListaPaises</string>
+    <string name="nomAlemania">
+        ALEMANIA
+    </string>
+    <string name="poblaAlemania">
+        Población estimada: 83,24 millones
+    </string>
+    <string name="nomAustralia">
+        AUSTRALIA
+    </string>
+    <string name="poblaAustralia">
+        Población estimada: 25,69 millones
+    </string>
+    <string name="nomBelgica">
+        BÉLGICA
+    </string>
+    <string name="poblaBelgica">
+        Población estimada: 11,56 millones
+    </string>
+    <string name="nomButan">
+        BUTÁN
+    </string>
+    <string name="poblaButan">
+        Población estimada: 771,612
+    </string>
+    <string name="nomCanada">
+        CANADÁ
+    </string>
+    <string name="poblaCanada">
+        Población estimada: 38,01 millones
+    </string>
+    <string name="nomChina">
+        CHINA
+    </string>
+    <string name="poblaChina">
+        Población estimada: 1,402 miles de millones
+    </string>
+    <string name="nomGuatemala">
+        GUATEMALA
+    </string>
+    <string name="poblaGuatemala">
+        Población estimada: 16,86 millones
+    </string>
+    <string name="nomJapon">
+        JAPÓN
+    </string>
+    <string name="poblaJapon">
+        Población estimada: 125,8 millones
+    </string>
+    <string name="nomSudafrica">
+        SUDÁFRICA
+    </string>
+    <string name="poblaSudafrica">
+        Población estimada: 59,31 millones
+    </string>
+    <string name="nomSuecia">
+        SUECIA
+    </string>
+    <string name="poblaSuecia">
+        Población estimada: 10,35 millones
+    </string>
+</resources>
