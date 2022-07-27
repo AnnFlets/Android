@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MAPintura"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imgObra"
+        android:layout_width="220sp"
+        android:layout_height="220sp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10sp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre:"
+            android:textStyle="bold"
+            android:layout_marginRight="5sp"
+            android:textSize="18sp"
+            android:textColor="#303030"
+            />
+        <TextView
+            android:id="@+id/txtNombreObra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre Obra"
+            android:textSize="18sp"
+            android:textColor="#303030"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precio:"
+            android:textStyle="bold"
+            android:layout_marginRight="5sp"
+            android:textSize="18sp"
+            android:textColor="#303030"
+            />
+        <TextView
+            android:id="@+id/txtPrecioObra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precio Obra"
+            android:textSize="18sp"
+            android:textColor="#303030"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="25sp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="DATOS DE COMPRA"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#777777"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginTop="10sp"
+            />
+        <EditText
+            android:id="@+id/edtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="20sp"
+            android:hint="Ingrese su nombre"
+            android:textColorHint="#454545"
+            android:textColor="#575757"
+            android:inputType="text"
+            android:backgroundTint="#76DFDB"
+            />
+
+        <EditText
+            android:id="@+id/edtApellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="20sp"
+            android:hint="Ingrese su apellido"
+            android:textColorHint="#454545"
+            android:textColor="#575757"
+            android:inputType="text"
+            android:backgroundTint="#76DFDB"
+            />
+
+        <EditText
+            android:id="@+id/edtNit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginBottom="10sp"
+            android:textColorHint="#454545"
+            android:textColor="#575757"
+            android:hint="Ingrese su NIT"
+            android:backgroundTint="#76DFDB"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnComprar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COMPRAR"
+        android:layout_marginTop="25sp"
+        android:layout_marginLeft="100sp"
+        android:layout_marginRight="100sp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:backgroundTint="#5D95C6"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CANCELAR"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="100sp"
+        android:layout_marginRight="100sp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:backgroundTint="#979693"
+        android:textColor="@color/white"
+        />
+</LinearLayout>
