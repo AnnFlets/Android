@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animales Domésticos"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_margin="15sp"
+        android:textColor="@color/teal_700"
+        />
+
+    <GridView
+        android:id="@+id/gridAnimalesDomes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:numColumns="auto_fit"
+        android:columnWidth="110sp"
+        android:horizontalSpacing="25sp"
+        android:verticalSpacing="25sp"
+        android:stretchMode="columnWidth"
+        />
+
+</LinearLayout>
