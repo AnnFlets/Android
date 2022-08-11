@@ -8,6 +8,11 @@
     android:orientation="vertical"
     android:background="@color/white">
 
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        />
+
     <ImageView
         android:id="@+id/imgObra"
         android:layout_width="220sp"

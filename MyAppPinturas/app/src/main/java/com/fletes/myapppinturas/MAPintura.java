@@ -1,9 +1,14 @@
 package com.fletes.myapppinturas;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -17,6 +22,7 @@ public class MAPintura extends AppCompatActivity {
     private TextView textViewNombre, textViewPrecio;
     private EditText editTextNombre, editTextApellido, editTextNit;
     private Button buttonComprar, buttonCancelar;
+    private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +36,8 @@ public class MAPintura extends AppCompatActivity {
         editTextNit = findViewById(R.id.edtNit);
         buttonComprar = findViewById(R.id.btnComprar);
         buttonCancelar = findViewById(R.id.btnCancelar);
+        toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
         obtenerInfo();
         click();
     }
@@ -81,5 +89,31 @@ public class MAPintura extends AppCompatActivity {
         imageView.setImageResource(imgObra);
         textViewNombre.setText(String.valueOf(nomObra));
         textViewPrecio.setText(String.valueOf(preObra));
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(R.menu.menu_item, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.itemPincel:
+                Toast.makeText(this, "Compre la pintura plis :,)", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.itemMenu1:
+                Toast.makeText(this, "Holaaa :D", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.itemMenu2:
+                Toast.makeText(this, "Adiós c:", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.itemMenu3:
+                Toast.makeText(this, "¡Clic!", Toast.LENGTH_SHORT).show();
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

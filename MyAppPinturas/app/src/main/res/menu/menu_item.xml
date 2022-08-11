@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/itemPincel"
+        android:title="Pincel"
+        android:icon="@drawable/ic_pincel"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/itemMenu1"
+        android:title="Saludar"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/itemMenu2"
+        android:title="Despedir"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/itemMenu3"
+        android:title="Tomar captura"
+        app:showAsAction="never"
+        />
+</menu>

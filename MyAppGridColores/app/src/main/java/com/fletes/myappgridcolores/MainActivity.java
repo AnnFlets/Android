@@ -69,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
     private void trasladarColor(int position){
         Intent intent = new Intent(this, MAColor.class);
         intent.putExtra("color", this.fondo().get(position));
+        intent.putExtra("nombre", this.nombre().get(position));
         this.startActivity(intent);
     }
 }

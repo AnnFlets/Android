@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imgAnimal"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_margin="15sp"
+        />
+    <TextView
+        android:id="@+id/txtAnimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Animal"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:layout_marginBottom="15sp"
+        />
+</LinearLayout>
