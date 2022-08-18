@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentA">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="LOS TRES CERDITOS"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20sp"
+                android:textColor="#D136AA"
+                android:fontFamily="sans-serif-black"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="170sp"
+                android:src="@drawable/ic_tres_cerditos"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"
+                android:layout_marginBottom="20sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/cuentoA"
+                android:layout_margin="10sp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-light"
+                android:justificationMode="inter_word"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
