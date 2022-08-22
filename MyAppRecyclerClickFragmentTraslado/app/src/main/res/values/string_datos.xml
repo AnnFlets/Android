@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nombreD1">
+        Smarthphone
+    </string>
+    <string name="precioD1">
+        Q.5000.00
+    </string>
+    <string name="detalleD1">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam feugiat accumsan lacus ut vestibulum. Nulla non ipsum neque. Praesent quam lacus, ornare vel metus porta, scelerisque sollicitudin mauris. Suspendisse potenti. Suspendisse sed dui suscipit, mattis lacus vitae, tincidunt massa. Aliquam faucibus imperdiet nunc, nec egestas lectus viverra in. Maecenas dictum augue id neque sodales, vitae faucibus nisl consequat. Integer eu tellus nisi. Aenean sodales venenatis tortor eu vulputate.
+    </string>
+    <string name="especificacionesD1">
+        1.  Lorem ipsum dolor sit amet.\n
+        2. Consectetur adipiscing elit.\n
+        3. Aliquam maximus erat quis ante dictum efficitur.\n
+        4. Nullam non sem et quam porta aliquet eget et nisl.\n
+        5. Sed hendrerit sagittis orci.\n
+        6. Elementum consequat nisi malesuada in.\n
+        7. Nullam pretium consectetur lorem.\n
+        8. Blandit mattis justo sodales eu.\n
+        9. Praesent iaculis purus at justo tincidunt vehicula.\n
+        10. Morbi tincidunt convallis pretium.\n
+        11. Phasellus gravida, dolor quis facilisis sollicitudin.\n
+        12. Lorem magna tincidunt sapien, sit amet ullamcorper nisl magna ut metus.\n
+        13. Maecenas elementum tortor sed neque pellentesque, quis fermentum elit tristique.\n
+        14. Quisque vulputate leo vel tortor commodo rutrum.\n
+        15. Mauris tempor vestibulum rutrum.\n
+        16. Nam laoreet lorem a ligula elementum laoreet.\n
+    </string>
+    <string name="nombreD2">
+        Laptop
+    </string>
+    <string name="precioD2">
+        Q.8000.00
+    </string>
+    <string name="detalleD2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam feugiat accumsan lacus ut vestibulum. Nulla non ipsum neque. Praesent quam lacus, ornare vel metus porta, scelerisque sollicitudin mauris. Suspendisse potenti. Suspendisse sed dui suscipit, mattis lacus vitae, tincidunt massa. Aliquam faucibus imperdiet nunc, nec egestas lectus viverra in. Maecenas dictum augue id neque sodales, vitae faucibus nisl consequat. Integer eu tellus nisi. Aenean sodales venenatis tortor eu vulputate.
+    </string>
+    <string name="especificacionesD2">
+        1.  Lorem ipsum dolor sit amet.\n
+        2. Consectetur adipiscing elit.\n
+        3. Aliquam maximus erat quis ante dictum efficitur.\n
+        4. Nullam non sem et quam porta aliquet eget et nisl.\n
+        5. Sed hendrerit sagittis orci.\n
+        6. Elementum consequat nisi malesuada in.\n
+        7. Nullam pretium consectetur lorem.\n
+        8. Blandit mattis justo sodales eu.\n
+        9. Praesent iaculis purus at justo tincidunt vehicula.\n
+        10. Morbi tincidunt convallis pretium.\n
+        11. Phasellus gravida, dolor quis facilisis sollicitudin.\n
+        12. Lorem magna tincidunt sapien, sit amet ullamcorper nisl magna ut metus.\n
+        13. Maecenas elementum tortor sed neque pellentesque, quis fermentum elit tristique.\n
+        14. Quisque vulputate leo vel tortor commodo rutrum.\n
+        15. Mauris tempor vestibulum rutrum.\n
+        16. Nam laoreet lorem a ligula elementum laoreet.\n
+    </string>
+    <string name="nombreD3">
+        Audífonos
+    </string>
+    <string name="precioD3">
+        Q.1500.00
+    </string>
+    <string name="detalleD3">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam feugiat accumsan lacus ut vestibulum. Nulla non ipsum neque. Praesent quam lacus, ornare vel metus porta, scelerisque sollicitudin mauris. Suspendisse potenti. Suspendisse sed dui suscipit, mattis lacus vitae, tincidunt massa. Aliquam faucibus imperdiet nunc, nec egestas lectus viverra in. Maecenas dictum augue id neque sodales, vitae faucibus nisl consequat. Integer eu tellus nisi. Aenean sodales venenatis tortor eu vulputate.
+    </string>
+    <string name="especificacionesD3">
+        1.  Lorem ipsum dolor sit amet.\n
+        2. Consectetur adipiscing elit.\n
+        3. Aliquam maximus erat quis ante dictum efficitur.\n
+        4. Nullam non sem et quam porta aliquet eget et nisl.\n
+        5. Sed hendrerit sagittis orci.\n
+        6. Elementum consequat nisi malesuada in.\n
+        7. Nullam pretium consectetur lorem.\n
+        8. Blandit mattis justo sodales eu.\n
+        9. Praesent iaculis purus at justo tincidunt vehicula.\n
+        10. Morbi tincidunt convallis pretium.\n
+        11. Phasellus gravida, dolor quis facilisis sollicitudin.\n
+        12. Lorem magna tincidunt sapien, sit amet ullamcorper nisl magna ut metus.\n
+        13. Maecenas elementum tortor sed neque pellentesque, quis fermentum elit tristique.\n
+        14. Quisque vulputate leo vel tortor commodo rutrum.\n
+        15. Mauris tempor vestibulum rutrum.\n
+        16. Nam laoreet lorem a ligula elementum laoreet.\n
+    </string>
+    <string name="nombreD4">
+        Smart Tv
+    </string>
+    <string name="precioD4">
+        Q.7500.00
+    </string>
+    <string name="detalleD4">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam feugiat accumsan lacus ut vestibulum. Nulla non ipsum neque. Praesent quam lacus, ornare vel metus porta, scelerisque sollicitudin mauris. Suspendisse potenti. Suspendisse sed dui suscipit, mattis lacus vitae, tincidunt massa. Aliquam faucibus imperdiet nunc, nec egestas lectus viverra in. Maecenas dictum augue id neque sodales, vitae faucibus nisl consequat. Integer eu tellus nisi. Aenean sodales venenatis tortor eu vulputate.
+    </string>
+    <string name="especificacionesD4">
+        1.  Lorem ipsum dolor sit amet.\n
+        2. Consectetur adipiscing elit.\n
+        3. Aliquam maximus erat quis ante dictum efficitur.\n
+        4. Nullam non sem et quam porta aliquet eget et nisl.\n
+        5. Sed hendrerit sagittis orci.\n
+        6. Elementum consequat nisi malesuada in.\n
+        7. Nullam pretium consectetur lorem.\n
+        8. Blandit mattis justo sodales eu.\n
+        9. Praesent iaculis purus at justo tincidunt vehicula.\n
+        10. Morbi tincidunt convallis pretium.\n
+        11. Phasellus gravida, dolor quis facilisis sollicitudin.\n
+        12. Lorem magna tincidunt sapien, sit amet ullamcorper nisl magna ut metus.\n
+        13. Maecenas elementum tortor sed neque pellentesque, quis fermentum elit tristique.\n
+        14. Quisque vulputate leo vel tortor commodo rutrum.\n
+        15. Mauris tempor vestibulum rutrum.\n
+        16. Nam laoreet lorem a ligula elementum laoreet.\n
+    </string>
+</resources>
