@@ -136,7 +136,6 @@ public class MACompraEntradas extends AppCompatActivity {
             textViewTotal.setText(String.valueOf(total));
         }
     }
-
     private void aumentarEntradas(){
         if(!(cantidadEntradas == 21)){
             this.cantidadEntradas++;
