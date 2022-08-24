@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".MAPelicula"
     android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
@@ -45,60 +45,65 @@
         />
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        >
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center">
-                <Button
-                    android:id="@+id/btnRegresarCarrusel"
-                    android:layout_width="40sp"
-                    android:layout_height="wrap_content"
-                    android:text="-"
-                    android:textColor="@color/white"
-                    android:textStyle="bold"
-                    android:backgroundTint="#4BA8EF"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginLeft="10sp"
-                    />
-                <ImageView
-                    android:id="@+id/imgCarrusel"
-                    android:layout_width="250sp"
-                    android:layout_height="150sp"
-                    android:src="@drawable/ic_launcher_background"
-                    android:layout_margin="10sp"
-                    />
-                <Button
-                    android:id="@+id/btnAdelantarCarrusel"
-                    android:layout_width="40sp"
-                    android:layout_height="wrap_content"
-                    android:text="+"
-                    android:textColor="@color/white"
-                    android:textStyle="bold"
-                    android:backgroundTint="#4BA8EF"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginRight="10sp"
-                    />
-            </LinearLayout>
-            <include
-                android:id="@+id/toolbarCartelera"
-                layout="@layout/toolbar"
-                />
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rvCartelera"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <ImageButton
+                android:id="@+id/imgBtnImgPelicula"
+                android:layout_width="wrap_content"
+                android:layout_height="260sp"
+                android:src="@drawable/ic_launcher_background"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:backgroundTint="#00000000"
+                android:layout_gravity="center"
+                android:layout_margin="10sp"
                 />
             <TextView
+                android:id="@+id/txtNombrePelicula"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=""
-                android:layout_margin="20sp"
+                android:text="Nombre Película"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"
+                android:layout_marginBottom="20sp"
+                />
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tlPelicula"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#117FBC"
+                app:tabTextColor="@color/white"
+                android:layout_marginRight="5sp"
+                android:layout_marginLeft="5sp"
+                />
+            <FrameLayout
+                android:id="@+id/flContenedor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                />
+            <Button
+                android:id="@+id/btnComprarEntradas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Comprar entradas"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#75B4E4"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50sp"
+                android:layout_marginTop="50sp"
                 />
         </LinearLayout>
     </ScrollView>

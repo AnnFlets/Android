@@ -3,7 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Ana/Documents/PROYECTOS_ANDROID/MyAppCine/app/src/main/res/layout/activity_macompra_entradas.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Ana/Documents/PROYECTOS_ANDROID/MyAppCine/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Ana/Documents/PROYECTOS_ANDROID/MyAppCine/app/src/main/res/layout/activity_mapelicula.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Ana/Documents/PROYECTOS_ANDROID/MyAppCine/app/src/main/res/layout/activity_maposter_pelicula.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Ana/Documents/PROYECTOS_ANDROID/MyAppCine/app/src/main/res/layout/fragment_director_reparto.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Ana/Documents/PROYECTOS_ANDROID/MyAppCine/app/src/main/res/layout/fragment_puntuacion_recaudacion.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Ana/Documents/PROYECTOS_ANDROID/MyAppCine/app/src/main/res/layout/fragment_sinopsis.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Ana/Documents/PROYECTOS_ANDROID/MyAppCine/app/src/main/res/layout/grid_asientos.xml" value="0.253125" />
+        <entry key="..\:/Users/Ana/Documents/PROYECTOS_ANDROID/MyAppCine/app/src/main/res/layout/recycler_item.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Ana/Documents/PROYECTOS_ANDROID/MyAppCine/app/src/main/res/layout/toolbar.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Ana/Documents/PROYECTOS_ANDROID/MyAppCine/app/src/main/res/menu/menu_item.xml" value="0.253125" />
       </map>

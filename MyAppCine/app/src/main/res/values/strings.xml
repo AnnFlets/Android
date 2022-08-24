@@ -1,3 +1,250 @@
 <resources>
     <string name="app_name">MyAppCine</string>
+    <string name="nombrePeli1">
+        Harry Potter y el Cáliz de Fuego
+    </string>
+    <string name="duracionPeli1">
+        2h 37min
+    </string>
+    <string name="sinopsisPeli1">
+        Tras las evidencias de que Voldemort ha regresado, Harry se verá envuelto en el tradicional
+        Torneo de los Tres Magos, donde compite contra escuelas de magia rivales. Con ayuda de Ron
+        y Herminone, se preparará para competir en una nueva lucha que él no ha elegido.\n
+    </string>
+    <string name="directorPeli1">
+        Mike Newell
+    </string>
+    <string name="repartoPeli1">
+        Daniel Radcliffe\n
+        Emma Watson\n
+        Rupert Grint\n
+        Eric Sykes\n
+        Timothy Spall\n
+        David Tennant\n
+        Mark Williams\n
+        James Phelps\n
+        Oliver Phelps\n
+        Bonnie Wright\n
+        Jeff Rawle\n
+        Robert Pattinson\n
+        Jason Isaacs\n
+        Tom Felton\n
+        Stanislav Yanevski\n
+        Robert Hardy\n
+        Philip Rham\n
+        Olivia Higginbottom\n
+    </string>
+    <string name="puntuacionPeli1">
+        7.7/10
+    </string>
+    <string name="recaudacionPeli1">
+        896,7 millones USD\n
+    </string>
+    <string name="nombrePeli2">
+        Warcraft: El primer encuentro de dos mundos
+    </string>
+    <string name="duracionPeli2">
+        2h 3min
+    </string>
+    <string name="sinopsisPeli2">
+        El pacífico reino de Azeroth está a punto de entrar en guerra para enfrentarse a unos
+        terribles invasores: orcos guerreros que han dejado su destruido mundo para colonizar otro.
+        Al abrirse un portal que conecta ambos mundos, un ejército se enfrenta a la destrucción, y
+        el otro, a la extinción. Dos héroes, uno en cada bando, están a punto de chocar en un
+        enfrentamiento que cambiará el destino de su familia, su pueblo y su hogar.\n
+    </string>
+    <string name="directorPeli2">
+        Duncan Jones
+    </string>
+    <string name="repartoPeli2">
+        Travis Fimmel\n
+        Paula Patton\n
+        Ben Foster\n
+        Dominic Cooper\n
+        Toby Kebbell\n
+        Ben Schnetzer\n
+        Robert Kazinsky\n
+        Clancy Brown\n
+        Daniel Wu\n
+        Ruth Negga\n
+        Anna Galvin\n
+        Callum Keith Rennie\n
+        Burkely Duffield\n
+        Ryan Robbins\n
+        Dean Redman\n
+        Glenn Ennis\n
+        Terry Notary\n
+        Elena Wurlitzer\n
+    </string>
+    <string name="puntuacionPeli2">
+        6.7/10
+    </string>
+    <string name="recaudacionPeli2">
+        439 millones USD\n
+    </string>
+    <string name="nombrePeli3">
+        Violet Evergarden: La película
+    </string>
+    <string name="duracionPeli3">
+        2h 20min
+    </string>
+    <string name="sinopsisPeli3">
+        A pesar de que el mundo deja atrás la guerra y los avances tecnológicos traen cambios en su
+        vida,  Violet sigue pensando y anhelando volver a ver a Gilbert, su comandante, mientras
+        intenta seguir viviendo en este mundo sin él.\n
+    </string>
+    <string name="directorPeli3">
+        Taichi Ishidate
+    </string>
+    <string name="repartoPeli3">
+        Yui Ishikawa\n
+        Daisuke Namikawa\n
+        Takehito Koyasu\n
+        Hidenobu Kiuchi\n
+        Haruka Tomatsu\n
+        Koki Uchiyama\n
+        Aya Endo\n
+        Minori Chihara\n
+        Kaori Mizuhashi\n
+        Rina Sato\n
+        Daichi Endo\n
+        Mayuno Yasokawa\n
+        Megumi Matsumoto\n
+        Sumire Morohoshi\n
+        Joji Nakata\n
+        Yasuhiro Mamiya\n
+        Mitsuru Miyamoto\n
+        Yuuki Sanpei\n
+    </string>
+    <string name="puntuacionPeli3">
+        8.3/10
+    </string>
+    <string name="recaudacionPeli3">
+        21,6 millones USD\n
+    </string>
+    <string name="nombrePeli4">
+        Los Juegos del Hambre: En llamas
+    </string>
+    <string name="duracionPeli4">
+        2h 26min
+    </string>
+    <string name="sinopsisPeli4">
+        Katniss Everdeen volvió a casa a salvo después de ganar la 74 edición de los Juegos del
+        Hambre con su compañero Peeta. Sin embargo, ahora el Capitolio les obliga a abandonar de
+        nuevo a su familia y amigos para participar en el Tour de la Victoria por todos los
+        distritos. Mientras, el presidente Snow está preparando una nueva edición de los Juegos,
+        que transformarán Panem para siempre.\n
+    </string>
+    <string name="directorPeli4">
+        Francis Lawrence
+    </string>
+    <string name="repartoPeli4">
+        Jennifer Lawrence\n
+        Josh Hutcherson\n
+        Liam Hemsworth\n
+        Philip Seymour Hoffman\n
+        Jack Quaid\n
+        Taylor St. Clair\n
+        Sandra Ellis Lafferty\n
+        Woody Harrelson\n
+        Paula Malcomson\n
+        Willow Shields\n
+        Donald Sutherland\n
+        Elizabeth Banks\n
+        Bruce Bundy\n
+        Nelson Ascencio\n
+        Lenny Kravitz\n
+        Stanley Tucci\n
+        Afemo Omilami\n
+        Kimberley Drummond\n
+    </string>
+    <string name="puntuacionPeli4">
+        7.5/10
+    </string>
+    <string name="recaudacionPeli4">
+        865 millones USD\n
+    </string>
+    <string name="nombrePeli5">
+        El teléfono negro
+    </string>
+    <string name="duracionPeli5">
+        1h 43min
+    </string>
+    <string name="sinopsisPeli5">
+        En una ciudad de Colorado, en los años 70, un enmascarado secuestra a Finney Shaw, un chico
+        tímido e inteligente de 13 años, y le encierra en un sótano insonorizado donde de nada
+        sirven sus gritos. Cuando un teléfono roto y sin conexión empieza a sonar, Finney descubre
+        que a través de él puede oír las voces de las anteriores víctimas, las cuales están
+        decididas a impedir que Finney acabe igual que ellas.\n
+    </string>
+    <string name="directorPeli5">
+        Scott Derrickson
+    </string>
+    <string name="repartoPeli5">
+        Mason Thames\n
+        Madeleine McGraw\n
+        Ethan Hawke\n
+        Jeremy Davies\n
+        E. Roger Mitchell\n
+        Troy Rudeseal\n
+        James Ransone\n
+        Miguel Cazarez Mora\n
+        Rebecca Clarke\n
+        J. Gaven Wilde\n
+        Spencer Fitzgerald\n
+        Jordan Isaiah White\n
+        Brady M. Ryan\n
+        Tristan Pravong\n
+        Jacob Moran\n
+        Brady Hepner\n
+        Banks Repeta\n
+        Parrish Stikeleather\n
+    </string>
+    <string name="puntuacionPeli5">
+        7.0/10
+    </string>
+    <string name="recaudacionPeli5">
+        153,1 millones USD\n
+    </string>
+    <string name="nombrePeli6">
+        Harry Potter y las Reliquias de la Muerte - Parte 2
+    </string>
+    <string name="duracionPeli6">
+        2h 10min
+    </string>
+    <string name="sinopsisPeli6">
+        Harry, Ron y Hermione buscan los restantes horrocruxes de Voldemort en su esfuerzo por
+        destruir al Señor Oscuro, mientras la batalla final entre las fuerzas del bien y del mal
+        del mundo mágico continúa en Hogwarts. Harry Potter es quien tiene que hacer el último
+        sacrificio antes de enfrentarse al malvado Voldemort.\n
+    </string>
+    <string name="directorPeli6">
+        David Yates
+    </string>
+    <string name="repartoPeli6">
+        Daniel Radcliffe\n
+        Emma Watson\n
+        Rupert Grint\n
+        Michael Gambon\n
+        Ralph Fiennes\n
+        Alan Rickman\n
+        Evanna Lynch\n
+        Domhnall Gleeson\n
+        Clémence Poésy\n
+        Warwick Davis\n
+        John Hurt\n
+        Helena Bonham Carter\n
+        Graham Duff\n
+        Anthony Allgood\n
+        Rusty Goffe\n
+        Jon Key\n
+        Kelly Macdonald\n
+        Jason Isaacs\n
+    </string>
+    <string name="puntuacionPeli6">
+        8.1/10
+    </string>
+    <string name="recaudacionPeli6">
+        1,342 miles de millones USD\n
+    </string>
 </resources>
