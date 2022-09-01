@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SQLite"
+        android:textSize="35sp"
+        android:layout_gravity="center"
+        android:layout_margin="10sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menú de Gestión de Bebidas"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_margin="10sp"
+        android:gravity="center"
+        />
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_gravity="center"
+        android:layout_margin="10sp"
+        />
+    <Button
+        android:id="@+id/btnInsertarMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar Bebida"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="15sp"
+        android:backgroundTint="#00897B"
+        />
+    <Button
+        android:id="@+id/btnBuscarMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar Bebida"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="15sp"
+        android:backgroundTint="#00897B"
+        />
+    <Button
+        android:id="@+id/btnListadoMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listado de Bebidas (Mostrar)"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_margin="15sp"
+        android:backgroundTint="#00897B"
+        />
+    <Button
+        android:id="@+id/btnActualizarMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Bebida"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="15sp"
+        android:backgroundTint="#00897B"
+        />
+</LinearLayout>

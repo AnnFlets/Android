@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="STORAGE">
+        <menu>
+            <item
+                android:title="My files"
+                android:icon="@drawable/ic_launcher_background"
+                />
+            <item
+                android:title="Shared"
+                android:icon="@drawable/ic_launcher_background"
+                />
+            <item
+                android:title="Starred"
+                android:icon="@drawable/ic_launcher_background"
+                />
+            <item
+                android:title="Backup"
+                android:icon="@drawable/ic_launcher_background"
+                />
+        </menu>
+    </item>
+    <item
+        android:title="APP">
+        <menu>
+            <item
+                android:title="Settings"
+                android:icon="@drawable/ic_launcher_background"
+                />
+            <item
+                android:title="Log Out"
+                android:icon="@drawable/ic_launcher_background"
+                />
+        </menu>
+    </item>
+</menu>
