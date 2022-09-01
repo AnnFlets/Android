@@ -6,146 +6,49 @@ import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
+import android.content.DialogInterface;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.airbnb.lottie.LottieAnimationView;
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.BaseTransientBottomBar;
+import com.google.android.material.snackbar.Snackbar;
 
 public class MainActivity extends AppCompatActivity {
 
-    private LottieAnimationView imagenLike;
+    private LottieAnimationView imagenLikeA, imagenLikeB, imagenLikeC;
     boolean like = false;
-    private ImageView imageViewEjeX, imageViewEjeY, imageViewAlpha, imageViewRotation,
-    imageViewTodo, imageViewBucle, imageViewScale;
-    private Button buttonEjeX, buttonEjeY, buttonAlpha, buttonRotation,
-    buttonTodo, buttonBucle, buttonScale;
-
-    //Proporciona el soporte para animar los objetos
-    private ObjectAnimator animatorX, animatorY, animatorAlpha, animatorRotation,
-    animatorAll;
-
-    private long animationDuration = 1000;
-    //Reproduce un conjunto de ObjectAnimator en un orden específico, las cuales pueden ser todas a la vez
-    private AnimatorSet animatorSet;
+    private Button buttonSnackbar, buttonDialog;
+    private boolean controlColorSnackbar = false;
+    private boolean controlColorDialog = false;
+    private ImageButton imageButtonCorazon;
+    private FloatingActionButton floatingActionButton;
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        imagenLike = findViewById(R.id.animationLike);
-        imageViewEjeX = findViewById(R.id.ivEjeX);
-        imageViewEjeY = findViewById(R.id.ivEjeY);
-        imageViewAlpha = findViewById(R.id.ivAlpha);
-        imageViewRotation = findViewById(R.id.ivRotation);
-        imageViewTodo = findViewById(R.id.ivTodo);
-        imageViewBucle = findViewById(R.id.ivBucle);
-        imageViewScale = findViewById(R.id.ivScale);
-        buttonEjeX = findViewById(R.id.btEjeX);
-        buttonEjeY = findViewById(R.id.btEjeY);
-        buttonAlpha = findViewById(R.id.btAlpha);
-        buttonRotation = findViewById(R.id.btRotation);
-        buttonTodo = findViewById(R.id.btTodo);
-        buttonBucle = findViewById(R.id.btBucle);
-        buttonScale = findViewById(R.id.btScale);
+        imagenLikeA = findViewById(R.id.animationLikeA);
+        imagenLikeB = findViewById(R.id.animationLikeB);
+        imagenLikeC = findViewById(R.id.animationLikeC);
+        buttonSnackbar = findViewById(R.id.btnSnackbar);
+        buttonDialog = findViewById(R.id.btnDialog);
+        imageButtonCorazon = findViewById(R.id.imgBtnCorazon);
+        floatingActionButton = findViewById(R.id.fabColor);
         this.click();
     }
 
-    private void animacion(String animacion){
-        switch (animacion){
-            case "ejeX":
-                //Desplazamiento en eje x
-                animatorX = ObjectAnimator.ofFloat(imageViewEjeX, "x", 500f);
-                //Tiempo que dure la animación
-                animatorX.setDuration(animationDuration);
-                //Reproducen las animaciones
-                AnimatorSet animatorSetX = new AnimatorSet();
-                //Qué animación queremos que ejecute
-                animatorSetX.play(animatorX);
-                //Comenzamos la animación
-                animatorSetX.start();
-                break;
-            case "ejeY":
-                //Desplazamiento en eje y
-                animatorY = ObjectAnimator.ofFloat(imageViewEjeY, "y", 500f);
-                //Tiempo que dure la animación
-                animatorY.setDuration(animationDuration);
-                //Reproducen las animaciones
-                AnimatorSet animatorSetY = new AnimatorSet();
-                //Qué animación queremos que ejecute
-                animatorSetY.play(animatorY);
-                //Comenzamos la animación
-                animatorSetY.start();
-                break;
-            case "alpha":
-                //Volverlo opaco
-                animatorAlpha = ObjectAnimator.ofFloat(imageViewAlpha, View.ALPHA, 1.0f, 0.0f);
-                //Tiempo que dure la animación
-                animatorAlpha.setDuration(animationDuration);
-                //Reproducen las animaciones
-                AnimatorSet animatorSetAlpha = new AnimatorSet();
-                //Qué animación queremos que ejecute
-                animatorSetAlpha.play(animatorAlpha);
-                //Comenzamos la animación
-                animatorSetAlpha.start();
-                break;
-            case "rotation":
-                //Girar empezando desde el primer valor hasta el segundo valor (grados)
-                animatorRotation = ObjectAnimator.ofFloat(imageViewRotation, "rotation", 0f, 360f);
-                //Tiempo que dure la animación
-                animatorRotation.setDuration(animationDuration);
-                //Reproducen las animaciones
-                AnimatorSet animatorSetRotation = new AnimatorSet();
-                //Qué animación queremos que ejecute
-                animatorSetRotation.play(animatorRotation);
-                //Comenzamos la animación
-                animatorSetRotation.start();
-                break;
-            case "todo":
-                animatorAlpha = ObjectAnimator.ofFloat(imageViewTodo, View.ALPHA, 1.0f, 0.0f);
-                animatorAlpha.setDuration(animationDuration);
-                animatorRotation = ObjectAnimator.ofFloat(imageViewTodo, "rotation", 0f, 360f);
-                animatorRotation.setDuration(animationDuration);
-                animatorX = ObjectAnimator.ofFloat(imageViewTodo, "x", 500f);
-                animatorX.setDuration(animationDuration);
-                //Reproducen las animaciones
-                AnimatorSet animatorSetTodo = new AnimatorSet();
-                //Qué animaciones queremos que ejecute
-                animatorSetTodo.playTogether(animatorAlpha, animatorX, animatorRotation);
-                //Comenzamos la animación
-                animatorSetTodo.start();
-                break;
-            case "bucle":
-                animatorX = ObjectAnimator.ofFloat(imageViewBucle, "x", 500f);
-                //Tiempo que dure la animación
-                animatorX.setDuration(animationDuration);
-                //Reproducen las animaciones
-                AnimatorSet animatorSetBucle = new AnimatorSet();
-                //Qué animación queremos que ejecute
-                animatorSetBucle.play(animatorX);
-                //Comenzamos la animación
-                animatorSetBucle.addListener(new AnimatorListenerAdapter() {
-                    @Override
-                    public void onAnimationEnd(Animator animation) {
-                        animation.start();
-                    }
-                });
-                animatorSetBucle.start();
-                break;
-            case "scale":
-                Animation animationScale = AnimationUtils.loadAnimation(this, R.anim.scale);
-                imageViewScale.startAnimation(animationScale);
-                break;
-        }
-    }
-
-
     private boolean likeAnimation(LottieAnimationView imagenLike, int animation, boolean like){
-        Toast.makeText(this, "Diste like", Toast.LENGTH_SHORT).show();
         if(!like){
             imagenLike.setAnimation(animation);
             imagenLike.setRepeatCount(0);
@@ -157,53 +60,120 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void click() {
-        imagenLike.setOnClickListener(new View.OnClickListener() {
+        imageButtonCorazon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                likeAnimation(imagenLike, R.raw.animation_like, like);
+                likeAnimation(imagenLikeA, R.raw.animation_like, like);
+                likeAnimation(imagenLikeB, R.raw.animation_like, like);
+                likeAnimation(imagenLikeC, R.raw.animation_like, like);
             }
         });
-        buttonEjeX.setOnClickListener(new View.OnClickListener() {
+        buttonDialog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animacion("ejeX");
+                crearDialogo(v);
             }
         });
-        buttonEjeY.setOnClickListener(new View.OnClickListener() {
+        buttonSnackbar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animacion("ejeY");
+                crearSnackbar(v);
             }
         });
-        buttonAlpha.setOnClickListener(new View.OnClickListener() {
+        floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                animacion("alpha");
+                cambiarColorBotonDialog();
             }
         });
-        buttonRotation.setOnClickListener(new View.OnClickListener() {
+    }
+
+    private void cambiarColorBotonDialog(){
+        if(controlColorDialog){
+            buttonDialog.setBackgroundColor(Color.parseColor("#ED2E97"));
+        }else{
+            buttonDialog.setBackgroundColor(Color.BLUE);
+        }
+        controlColorDialog = !controlColorDialog;
+    }
+
+    private void crearDialogo(View view){
+        //Crear el objeto diálogo
+        MaterialAlertDialogBuilder builderDialog = new MaterialAlertDialogBuilder(MainActivity.this);
+        //Poner título al diálogo
+        builderDialog.setTitle("Seleccione colores");
+        //Establecer una lista de elementos, donde se seleccionen múltiples opciones
+        builderDialog.setMultiChoiceItems(construirArrayOpciones(), construirArrayBoolean(), new DialogInterface.OnMultiChoiceClickListener() {
             @Override
-            public void onClick(View v) {
-                animacion("rotation");
+            public void onClick(DialogInterface dialog, int which, boolean isChecked) {
             }
         });
-        buttonTodo.setOnClickListener(new View.OnClickListener() {
+        //Botón positivo
+        builderDialog.setPositiveButton("OKAY", new DialogInterface.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                animacion("todo");
+            public void onClick(DialogInterface dialog, int which) {
+                Toast.makeText(MainActivity.this, "Términos aceptados", Toast.LENGTH_SHORT).show();
             }
         });
-        buttonBucle.setOnClickListener(new View.OnClickListener() {
+        //Botón negativo
+        builderDialog.setNegativeButton("NOPE", new DialogInterface.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                animacion("bucle");
+            public void onClick(DialogInterface dialog, int which) {
+                Toast.makeText(MainActivity.this, "Términos denegados", Toast.LENGTH_SHORT).show();
             }
         });
-        buttonScale.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                animacion("scale");
-            }
-        });
+        //Personalizar diálogo
+        builderDialog.setBackground(getResources().getDrawable(R.drawable.dialog_design, null));
+        //Mostrar el diálogo
+        builderDialog.show();
+    }
+
+    //Presenta las opciones disponibles
+    private String[] construirArrayOpciones(){
+        String[] opciones = new String[4];
+        opciones[0] = "Rojo";
+        opciones[1] = "Amarillo";
+        opciones[2] = "Azul";
+        opciones[3] = "Verde";
+        return opciones;
+    }
+
+    //Indica si están seleccionados o no las opciones
+    private boolean[] construirArrayBoolean(){
+        boolean[] codicion = new boolean[4];
+        codicion[0] = false;
+        codicion[1] = false;
+        codicion[2] = false;
+        codicion[3] = false;
+        return codicion;
+    }
+
+    private void crearSnackbar(View view){
+        //Declarar el objeto snackbar
+        Snackbar snackbar = Snackbar.make(view, "Cambiar color al pulsar OKAY", Snackbar.LENGTH_SHORT);
+        //Hacer que aparezca arriba del componente parámetro
+        snackbar.setAnchorView(floatingActionButton);
+        //Establecer el tiempo que será visible
+        snackbar.setDuration(8000);
+        //Agregar animación
+        snackbar.setAnimationMode(BaseTransientBottomBar.ANIMATION_MODE_SLIDE);
+        //Determinar un botón con acción
+        snackbar.setAction("OKAY", new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        cambiarColorBotonSnackbar();
+                    }
+                });
+        //Mostrar el snackbar
+        snackbar.show();
+    }
+
+    private void cambiarColorBotonSnackbar(){
+        if(controlColorSnackbar){
+            buttonSnackbar.setBackgroundColor(Color.parseColor("#ED2E97"));
+        }else{
+            buttonSnackbar.setBackgroundColor(Color.BLUE);
+        }
+        controlColorSnackbar = !controlColorSnackbar;
     }
 }
