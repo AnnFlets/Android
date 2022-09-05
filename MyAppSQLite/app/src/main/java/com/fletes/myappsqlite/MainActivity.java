@@ -10,7 +10,7 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button buttonInsertar, buttonBuscar, buttonListado, buttonActualizar;
+    private Button buttonInsertar, buttonBuscar, buttonListado, buttonActualizar, buttonEliminar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         buttonBuscar = findViewById(R.id.btnBuscarMenu);
         buttonListado = findViewById(R.id.btnListadoMenu);
         buttonActualizar = findViewById(R.id.btnActualizarMenu);
+        buttonEliminar = findViewById(R.id.btnEliminarMenu);
         this.navegacionMenu();
     }
 
@@ -47,6 +48,12 @@ public class MainActivity extends AppCompatActivity {
                 abrirActualizar();
             }
         });
+        buttonEliminar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                abrirEliminar();
+            }
+        });
     }
 
     private void abrirInsertar(){
@@ -66,6 +73,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void abrirActualizar(){
         Intent intent = new Intent(this, MAActualizarSQLite.class);
+        startActivity(intent);
+    }
+    private void abrirEliminar(){
+        Intent intent = new Intent(this, MAEliminarSQLite.class);
         startActivity(intent);
     }
 }

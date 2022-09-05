@@ -1,9 +1,132 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MAActualizarSQLite">
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+    tools:context=".MAActualizarSQLite"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ACTUALIZAR BEBIDA"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:layout_marginTop="30sp"
+                android:layout_marginBottom="40sp"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                />
+            <ListView
+                android:id="@+id/lvBebidasActualizar"
+                android:layout_width="match_parent"
+                android:layout_height="200sp"
+                android:layout_margin="10sp"
+                android:nestedScrollingEnabled="true"
+                android:background="#575DD6"
+                />
+            <EditText
+                android:id="@+id/edtNombreActualizar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nombre a actualizar"
+                android:inputType="text"
+                android:textColorHint="#4E4E4E"
+                android:textColor="@color/black"
+                android:backgroundTint="#4969DD"
+                android:layout_marginTop="30sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"
+                android:layout_marginBottom="10sp"
+                />
+            <EditText
+                android:id="@+id/edtSaborActualizar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Sabor a actualizar"
+                android:inputType="text"
+                android:textColorHint="#4E4E4E"
+                android:textColor="@color/black"
+                android:backgroundTint="#4969DD"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"
+                android:layout_marginBottom="10sp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"
+                android:layout_marginBottom="10sp"
+                >
+                <EditText
+                    android:id="@+id/edtPresentacionActualizar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Presentacion a actualizar"
+                    android:inputType="number"
+                    android:textColorHint="#4E4E4E"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#4969DD"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="mL"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#4E4E4E"
+                    android:layout_marginLeft="15sp"
+                    />
+            </LinearLayout>
+            <EditText
+                android:id="@+id/edtTipoActualizar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tipo a actualizar"
+                android:inputType="text"
+                android:textColorHint="#4E4E4E"
+                android:textColor="@color/black"
+                android:backgroundTint="#4969DD"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"
+                android:layout_marginBottom="10sp"
+                />
+            <EditText
+                android:id="@+id/edtPrecioActualizar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Precio a actualizar"
+                android:inputType="numberDecimal"
+                android:textColorHint="#4E4E4E"
+                android:textColor="@color/black"
+                android:backgroundTint="#4969DD"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"
+                android:layout_marginBottom="30sp"
+                />
+            <Button
+                android:id="@+id/btnActualizarBebida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Actualizar Bebida"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="20sp"
+                android:textColor="@color/white"
+                android:backgroundTint="#0A2A63"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

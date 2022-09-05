@@ -3,11 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Ana/Documents/PROYECTOS_ANDROID/MyAppSQLite/app/src/main/res/layout/activity_maactualizar_sqlite.xml" value="0.1" />
-        <entry key="..\:/Users/Ana/Documents/PROYECTOS_ANDROID/MyAppSQLite/app/src/main/res/layout/activity_mabuscar_id_sqlite.xml" value="0.1" />
+        <entry key="..\:/Users/Ana/Documents/PROYECTOS_ANDROID/MyAppSQLite/app/src/main/res/layout/activity_maactualizar_sqlite.xml" value="0.264" />
+        <entry key="..\:/Users/Ana/Documents/PROYECTOS_ANDROID/MyAppSQLite/app/src/main/res/layout/activity_mabuscar_id_sqlite.xml" value="0.264" />
         <entry key="..\:/Users/Ana/Documents/PROYECTOS_ANDROID/MyAppSQLite/app/src/main/res/layout/activity_madetalle.xml" value="0.1" />
-        <entry key="..\:/Users/Ana/Documents/PROYECTOS_ANDROID/MyAppSQLite/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/Ana/Documents/PROYECTOS_ANDROID/MyAppSQLite/app/src/main/res/layout/activity_mainsertar_sqlite.xml" value="0.1" />
+        <entry key="..\:/Users/Ana/Documents/PROYECTOS_ANDROID/MyAppSQLite/app/src/main/res/layout/activity_maeliminar_sqlite.xml" value="0.1" />
+        <entry key="..\:/Users/Ana/Documents/PROYECTOS_ANDROID/MyAppSQLite/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Ana/Documents/PROYECTOS_ANDROID/MyAppSQLite/app/src/main/res/layout/activity_mainsertar_sqlite.xml" value="0.264" />
         <entry key="..\:/Users/Ana/Documents/PROYECTOS_ANDROID/MyAppSQLite/app/src/main/res/layout/activity_malistar_sqlite.xml" value="0.1" />
         <entry key="..\:/Users/Ana/Documents/PROYECTOS_ANDROID/MyAppSQLite/app/src/main/res/layout/fragment_detalle.xml" value="0.1" />
       </map>

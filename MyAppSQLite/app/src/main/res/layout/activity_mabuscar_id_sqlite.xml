@@ -5,14 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MABuscarIdSQLite"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/white">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Buscar Bebida por ID"
-        android:textSize="35sp"
+        android:text="BUSCAR BEBIDA POR ID"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
         android:layout_gravity="center"
-        android:layout_margin="10sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginBottom="40sp"
         />
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,25 +28,32 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="Ingrese CÓDIGO de bebida a buscar"
+            android:textColorHint="#4E4E4E"
+            android:textColor="@color/black"
+            android:backgroundTint="#F877CD"
             android:layout_margin="15sp"
             android:inputType="number"
             />
         <ImageButton
             android:id="@+id/imgBtnBuscar"
-            android:layout_width="100sp"
-            android:layout_height="100sp"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
             android:layout_margin="15sp"
-            android:src="@drawable/ic_launcher_background"
-            android:backgroundTint="@color/white"
+            android:src="@drawable/ic_lupa"
+            android:backgroundTint="#D5D5D5"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
             />
     </LinearLayout>
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cardCornerRadius="35sp"
-        app:cardBackgroundColor="@color/purple_200"
+        app:cardCornerRadius="20sp"
+        app:cardBackgroundColor="#FB40B7"
         app:contentPadding="15sp"
-        android:layout_margin="15sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
         android:elevation="15sp"
         >
         <LinearLayout
@@ -55,7 +66,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="CÓDIGO:"
-                android:textSize="25sp"
+                android:textColor="#F9FF4F"
+                android:textStyle="bold"
+                android:textSize="27sp"
                 android:layout_margin="15sp"
                 />
             <TextView
@@ -63,7 +76,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Nombre:"
-                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:textSize="22sp"
                 android:layout_margin="15sp"
                 />
             <TextView
@@ -71,7 +85,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sabor:"
-                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:textSize="22sp"
                 android:layout_margin="15sp"
                 />
             <TextView
@@ -79,7 +94,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Presentación:"
-                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:textSize="22sp"
                 android:layout_margin="15sp"
                 />
             <TextView
@@ -87,7 +103,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Tipo:"
-                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:textSize="22sp"
                 android:layout_margin="15sp"
                 />
             <TextView
@@ -95,7 +112,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Precio:"
-                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:textSize="22sp"
                 android:layout_margin="15sp"
                 />
         </LinearLayout>

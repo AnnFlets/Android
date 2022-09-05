@@ -5,50 +5,70 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MAInsertarSQLite"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/white">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Registro de Bebidas"
-        android:textSize="35sp"
+        android:text="REGISTRO DE BEBIDA"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="30sp"
         android:layout_gravity="center"
-        android:layout_margin="10sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginBottom="40sp"
         />
     <EditText
         android:id="@+id/edtNombreBedidaInsertar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Ingrese el nombre de la bebida"
-        android:layout_margin="15sp"
         android:inputType="text"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="15sp"
+        android:textColorHint="#4E4E4E"
+        android:textColor="@color/black"
+        android:backgroundTint="#BE6DF8"
         />
     <EditText
         android:id="@+id/edtSaborBedidaInsertar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Ingrese el sabor de la bebida"
-        android:layout_margin="15sp"
         android:inputType="text"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="15sp"
+        android:textColorHint="#4E4E4E"
+        android:textColor="@color/black"
+        android:backgroundTint="#BE6DF8"
         />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="15sp"
         >
         <EditText
             android:id="@+id/edtPresentacionBedidaInsertar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="Ingrese la presentación de la bebida"
-            android:layout_margin="15sp"
             android:inputType="number"
+            android:textColorHint="#4E4E4E"
+            android:textColor="@color/black"
+            android:backgroundTint="#BE6DF8"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ml"
+            android:text="mL"
+            android:layout_marginLeft="15sp"
             android:textSize="20sp"
-            android:layout_margin="15sp"
+            android:textColor="#474747"
             android:textStyle="bold"
             />
     </LinearLayout>
@@ -57,16 +77,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Ingrese el tipo de la bebida"
-        android:layout_margin="15sp"
         android:inputType="text"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="15sp"
+        android:textColorHint="#4E4E4E"
+        android:textColor="@color/black"
+        android:backgroundTint="#BE6DF8"
         />
     <EditText
         android:id="@+id/edtPrecioBedidaInsertar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Ingrese el precio de la bebida"
-        android:layout_margin="15sp"
         android:inputType="numberDecimal"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="35sp"
+        android:textColorHint="#4E4E4E"
+        android:textColor="@color/black"
+        android:backgroundTint="#BE6DF8"
         />
     <Button
         android:id="@+id/btnInsertarRegistro"
@@ -75,7 +105,8 @@
         android:text="Registrar Bebida"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:layout_margin="15sp"
-        android:backgroundTint="#00897B"
+        android:layout_margin="25sp"
+        android:backgroundTint="#611FA1"
+        android:textColor="@color/white"
         />
 </LinearLayout>
